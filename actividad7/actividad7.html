@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form action="/action_page.php">
+     <fieldset>
+      <legend>Rellenar:</legend>
+      <input type="radio" name="Inglés" value="1">Ingles<br>
+      <input type="radio" name="Alemán" value="2">Alemán<br>
+      <input type="radio" name="Francés" value="3">Francés<br>
+      <label for="usb"></label><br>
+      <select name="usb" id="usb">
+        <option value="usb">USB</option>
+        <option value="drive">DRIVE</option>
+        <option value="bluetooth">BLUETOOTH</option>
+      </select><br>
+        <label for="fname">Nombre:</label>
+     <input type="text" id="fname" name="fname"><br><br>
+     <label for="lname">Apellido:</label>
+     <input type="text" id="lname" name="lname"><br><br>
+     </fieldset>
+    </form>
+    <form action="/action_page.php">
+        <fieldset>
+            <legend>Indique sus preferencias</legend>
+            <select id="sexo" name="sexo" size="2" multiple>
+                <option value="Hombre">Hombre</option>
+                <option value="Mujer">Mujer</option>
+            </select><br>
+            <input type="checkbox" id="Sexo" name="Sexo" value="Hombre">
+            <label for="Hombre"> Hombre</label><br>
+            <input type="checkbox" id="Sexo" name="Sexo" value="Mujer">
+            <label for="Mujer"> Mujer</label><br>
+        </fieldset>
+    </form>
+    
+</body>
+
+</html>
