@@ -5,3 +5,5 @@ div
 section
 flotante hacia la izquierda, le añades un ancho determinado
 width
+#=id
+.=class
