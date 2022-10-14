@@ -1,6 +1,7 @@
 body{
-    background-color: darkcyan;
+    background-color: rgb(238, 231, 94);
 }
+
 
 h1{
     font-size: 115%;
@@ -19,6 +20,35 @@ h1{
     font-size: 20px;
   }
 
-  h2{
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+
+  .caja{
+    display: grid;
+      grid-template-columns: 1fr 1fr;
+      column-gap: .0rem;
+  }
+
+  .lista{
+    display;flex;
+    flex-direction: column;
+    background-color: chartreuse;
+  }
+
+  .lista2{
+    border-top: 1px solid black;
+    height: 15px;
+    padding: 0;
+    margin: 20px auto 0 auto;
+  }
+
+  .banda{
+  display: flex;
+  flex-wrap: nowrap;
+  background-color:rgb(134, 238, 116);
+  }
+
+  .banda > div{
+  width: 300px;
+  text-align: center;
+  line-height: 150px;
+  font-size: 15;
   }
