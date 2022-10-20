@@ -22,22 +22,40 @@ h1{
 
 
 .caja{
-  display: grid;
-    grid-template-columns: 1fr 1fr;
-    column-gap: .0rem;
+  float:left;
 }
 
 .fondo{
-  background-color: rgb(233, 196, 116)
+  float: left;
+  background-color: rgb(233, 196, 116);
+  width: 70%;
 }
 
+.fondo > img{
+  width: 100%;
+}
+
+
 .lista{
-  display;flex;
-  flex-direction: column;
+  float: left;
   background-color: rgb(240, 207, 100);
-  width: 200px;
-  height: 200px;
+  width: 30%;
   text-align: center;
+}
+
+@media (max-width: 800px){
+  .fondo{
+    float: left;
+    background-color: rgb(233, 196, 116);
+    width: 100%;
+  }
+
+  .lista{
+    float: left;
+    background-color: rgb(240, 207, 100);
+    width: 100%;
+    text-align: center;
+  }
 }
 
 .lista2{
