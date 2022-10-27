@@ -1,5 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<table comlums="4">
-    <cell><hecho></hecho></cell>
-</table>
+<caja>
+    <dschecho>
+        <hechos>IBM da conocer el PC.</hechos>
+        <hechos>Se funda Google.</hechos>
+        <hechos>Se funda Facebook.</hechos>
+    </dschecho>
+        <fechas>
+            <fecha>
+            <dia>12</dia>
+            <mes>8</mes>
+            <año>1981</año>
+        </fecha>
+        <fecha>
+            <dia>4</dia>
+            <mes>9</mes>
+            <año>1998</año>
+        </fecha>
+        <fecha>
+            <dia>4</dia>
+            <mes>2</mes>
+            <año>2004</año>
+        </fecha>
+    </fechas>
+</caja>
