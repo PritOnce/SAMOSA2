@@ -1,0 +1,1 @@
+<!ELEMENT fehca (dia,mes,año)>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<table columns="2">
+    <row>
+    <cell><text>Fila 1 - Columna 1</text></cell>
+    <cell><text>Fila 1 - Columna 2</text></cell>
+    </row>
+    <row>
+    <cell><text>Fila 2 - Columna 1</text></cell>
+    <cell><text>Fila 2 - Columna 2</text></cell>
+    </row>
+    </table>
