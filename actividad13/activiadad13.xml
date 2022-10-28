@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<msj>
+    <r>
+        <nom>Alfredo Reino</nom>
+        <email>alf@ibium.com</email>
+    </r>
+    <d>
+        <nom>Bill Clinton</nom>
+        <email>president@whitehouse.gov</email>
+    </d>
+    <a>Hola bill</a>
+    <t>
+        <parrafo>¿Hola qué tal?</parrafo>
+        <text>...</text>
+    </t>
+</msj>
