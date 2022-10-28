@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE caja SYSTEM "actividad12.dtd">
+<caja>
+    <cd>
+        <t>Still got the blues</t>
+        <a>Gary Moore</a>
+        <p>UK</p>
+        <c.d>Virgin records</c.d>
+        <pr>10.20</pr>
+        <año>1990</año>
+    </cd>
+    <cd>
+        <t>Once night only</t>
+        <a>Bee Gees</a>
+        <p>UK</p>
+        <c.d>Polydor</c.d>
+        <pr>10.90</pr>
+        <año>1998</año>
+    </cd>
+    <cd>
+        <t>When a man loves a women</t>
+        <a>Percy Sledge</a>
+        <p>USA</p>
+        <c.d>Atlantic</c.d>
+        <pr>8.70</pr>
+        <año>1987</año>
+    </cd>
+    <cd>
+        <t>Big Willie style</t>
+        <a>Will Smith</a>
+        <p>USA</p>
+        <c.d>Columbia</c.d>
+        <pr>9.90</pr>
+        <año>1997</año>
+    </cd>
+    <cd>
+        <t>La canción de Juan Perro</t>
+        <a>Radio Futura</a>
+        <p>España</p>
+        <c.d>Sony Music.Ariola</c.d>
+        <pr>9.90</pr>
+        <año>1987</año>
+    </cd>
+    <cd>
+        <t>The dock of the bay</t>
+        <a>Otis Redding</a>
+        <p>USA</p>
+        <c.d>Atlantic</c.d>
+        <pr>7.90</pr>
+        <año>1987</año>
+    </cd>
+</caja>

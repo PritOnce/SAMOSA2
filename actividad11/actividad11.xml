@@ -1,26 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
+<!DOCTYPE caja SYSTEM "actividad11.dtd">
 <caja>
-    <dschecho>
-        <hechos>IBM da conocer el PC.</hechos>
-        <hechos>Se funda Google.</hechos>
-        <hechos>Se funda Facebook.</hechos>
-    </dschecho>
-    <fechas>
-        <fecha>
-            <dia>12</dia>
-            <mes>8</mes>
-            <año>1981</año>
-        </fecha>
-        <fecha>
-            <dia>4</dia>
-            <mes>9</mes>
-            <año>1998</año>
-        </fecha>
-        <fecha>
-            <dia>4</dia>
-            <mes>2</mes>
-            <año>2004</año>
-        </fecha>
-    </fechas>
+    <h nombre="IBM da a conocer el PC">
+        <f>
+            <d>12</d>
+            <m>8</m>
+            <a>1981</a>
+        </f>
+    </h>
+    <h nombre="Se funda Google">
+        <f>
+            <d>4</d>
+            <m>9</m>
+            <a>1998</a>
+        </f>
+    </h>
+    <h nombre="Se funda Facebook">
+        <f>
+            <d>4</d>
+            <m>2</m>
+            <a>2004</a>
+        </f>
+    </h>
 </caja>

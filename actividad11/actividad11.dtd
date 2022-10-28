@@ -1,1 +1,7 @@
-<!ELEMENT fehca (dia,mes,año)>
+<!ELEMENT caja (h+)>
+<!ELEMENT h (f)>
+<!ATTLIST h nombre CDATA #REQUIRED>
+<!ELEMENT f (d,m,a)>
+<!ELEMENT d (#PCDATA)>
+<!ELEMENT m (#PCDATA)>
+<!ELEMENT a (#PCDATA)>
