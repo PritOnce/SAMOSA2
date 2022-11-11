@@ -4,22 +4,29 @@
         <xs:complexType>
             <xs:sequence>
                 <xs:element name="personal" maxOccurs="unbounded">
-                <xs:complexType>
-                    <xs:sequence>
-                        <xs:element name="dni" type="xs:string" />
-                        <xs:element name="nombre" type="xs:string" />
-                        <xs:element name="titulacion" type="xs:string" />
-                        <xs:element name="curso_academico" type="xs:string"/>
-                        <xs:element name="domicilios">
-                            <xs:complexType>
-                                <xs:sequence>
-                                    <xs:element name="domicilio" maxOccurs="unbounded" />
-                                </xs:sequence>
-                                <xs:attribute name="tipo" type="xs:string" />
-                            </xs:complexType>
-                        </xs:element>
-                    </xs:sequence>
-                </xs:complexType>
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="dni" type="xs:string" />
+                            <xs:element name="nombre" type="xs:string" />
+                            <xs:element name="titulacion" type="xs:string" />
+                            <xs:element name="curso_academico" type="xs:string" />
+                            <xs:element name="domicilios">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="domicilio" maxOccurs="unbounded" />
+                                    </xs:sequence>
+                                    <xs:attribute name="tipo" type="xs:string" />
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="pago" maxOccurs="1">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="tipo_matricula" type="xs:string" />
+                        </xs:sequence>
+                    </xs:complexType>
                 </xs:element>
             </xs:sequence>
         </xs:complexType>
