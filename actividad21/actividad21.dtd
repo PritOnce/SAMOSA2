@@ -1,0 +1,7 @@
+<!ELEMENT caja (h+)>
+<!ELEMENT h (f)>
+<!ELEMENT f (n,d,m,a)>
+<!ELEMENT n (#PCDATA)>
+<!ELEMENT d (#PCDATA)>
+<!ELEMENT m (#PCDATA)>
+<!ELEMENT a (#PCDATA)>

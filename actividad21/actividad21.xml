@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE caja SYSTEM "actividad21.dtd">
+<?xml-stylesheet href="actividad21.xsl" type="text/xsl"?>
+<caja>
+    <h>
+        <f>
+            <n>IBM da a conocer el PC</n>
+            <d>12</d>
+            <m>8</m>
+            <a>1981</a>
+        </f>
+    </h>
+    <h>
+        <f>
+            <n>Se funda Google</n>
+            <d>4</d>
+            <m>9</m>
+            <a>1998</a>
+        </f>
+    </h>
+    <h>
+        <f>
+            <n>Se funda Facebook</n>
+            <d>4</d>
+            <m>2</m>
+            <a>2004</a>
+        </f>
+    </h>
+</caja>
