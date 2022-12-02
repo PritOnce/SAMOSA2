@@ -1,0 +1,8 @@
+<!ELEMENT caja (cd+)>
+<!ELEMENT cd (t,a,p,c.d,pr,año)>
+<!ELEMENT t (#PCDATA)>
+<!ELEMENT a (#PCDATA)>
+<!ELEMENT p (#PCDATA)>
+<!ELEMENT c.d (#PCDATA)>
+<!ELEMENT pr (#PCDATA)>
+<!ELEMENT año (#PCDATA)>
