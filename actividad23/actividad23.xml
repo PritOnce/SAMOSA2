@@ -34,8 +34,8 @@
             <descripción>MICRO PENTIUM IV 3000MHZ FB800</descripción>
             <Cant>1</Cant>
             <precio>230 eur.</precio>
-            <I.V.A>16.0</I.V.A>
-            <importe>266.80 eur.</importe>
+            <I.V.A>16,0</I.V.A>
+            <importe>266,80 eur.</importe>
         </dato.facutura>
 
         <dato.facutura>
@@ -43,8 +43,8 @@
             <descripción>PLACA BASE QDI P4</descripción>
             <Cant>1</Cant>
             <precio>180 eur.</precio>
-            <I.V.A>16.0</I.V.A>
-            <importe>208.80 eur.</importe>
+            <I.V.A>16,0</I.V.A>
+            <importe>208,80 eur.</importe>
         </dato.facutura>
 
         <dato.facutura>
@@ -52,8 +52,8 @@
             <descripción>DIMM DRR 512MB 3200</descripción>
             <Cant>2</Cant>
             <precio>40 eur.</precio>
-            <I.V.A>16.0</I.V.A>
-            <importe>92.80</importe>
+            <I.V.A>16,0</I.V.A>
+            <importe>92,80</importe>
         </dato.facutura>
 
         <dato.facutura>
@@ -61,15 +61,15 @@
             <descripción>DISCO DURO 250GB S-ATA 7200</descripción>
             <Cant>4</Cant>
             <precio>120 eur.</precio>
-            <I.V.A>16.0</I.V.A>
-            <importe>556.80</importe>
+            <I.V.A>16,0</I.V.A>
+            <importe>556,80</importe>
         </dato.facutura>
 
         <suma>
-            <base.imposible>970.00 eur.</base.imposible>
-            <IVA>16.0</IVA>
-            <cuotaIVA>155.20</cuotaIVA>
+            <base.imposible>970,00 eur.</base.imposible>
+            <IVA>16,0</IVA>
+            <cuotaIVA>155,20</cuotaIVA>
         </suma>
-        <total.factura>1125.20 eur</total.factura>
+        <total.factura>1125,20 eur</total.factura>
     </datos.facturas>
 </factura>
