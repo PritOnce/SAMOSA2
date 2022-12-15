@@ -4,8 +4,8 @@
 
     <xsl:output method="text" version="1.0" encoding="UTF-8" indent="yes"/>
     <xsl:template match="/">
-    factura:
-    nombre:<xsl:value-of select="/factura/@nombre"/>
+factura:
+    nombre: <xsl:value-of select="/factura/@nombre"/>
     empresa:
       nom.empresa: <xsl:value-of select="/factura/empresa/nom.empresa"/>
       calle.empresa: <xsl:value-of select="/factura/empresa/calle.empresa"/>
@@ -39,6 +39,6 @@
         IVA: <xsl:value-of select="/factura/datos.facturas/suma/IVA"/>
         cuotaIVA: <xsl:value-of select="/factura/datos.facturas/suma/cuotaIVA"/>
       total.factura: <xsl:value-of select="/factura/datos.facturas/total.factura"/>
-  
+
 </xsl:template>
 </xsl:stylesheet>
