@@ -21,11 +21,11 @@
                                 <br/>
                                 <xsl:value-of select="localidad.empresa"/>
                                 <br/>
-                                <xsl:value-of select="CIF.empresa"/>
+                                C.I.F: <xsl:value-of select="CIF.empresa"/>
                                 <br/>
-                                <xsl:value-of select="telf.empresa"/>
+                                teléfono: <xsl:value-of select="telf.empresa"/>
                                 <br/>
-                                <xsl:value-of select="fax.empresa"/>
+                                fax: <xsl:value-of select="fax.empresa"/>
                             </td>
                         </xsl:for-each>
                         <xsl:for-each select="factura/fecha.emisión">
@@ -50,7 +50,7 @@
                             <br />
                             Dirección de envio: <xsl:value-of select="calle.envio"/>
                             <br />
-                            Población: <xsl:value-of select="población.cliente"/>
+                            Población: <xsl:value-of select="pobalción.cliente"/>
                             <br />
                             cod. postal: <xsl:value-of select="cod.postal"/>
                             <br />
