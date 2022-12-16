@@ -30,7 +30,7 @@ factura:
         - REF: <xsl:value-of select="/REF"/>
           descripción: <xsl:value-of select="/descripción"/>
           Cant: <xsl:value-of select="/Cant"/>
-          precio: <xsl:value-of select="/REF"/>
+          precio: <xsl:value-of select="/precio"/>
           I.V.A: <xsl:value-of select="/I.V.A"/>
           importe: <xsl:value-of select="/importe"/>
 </xsl:for-each>
