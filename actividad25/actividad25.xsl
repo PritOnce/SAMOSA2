@@ -27,12 +27,12 @@ factura:
     datos.facturas:
       dato.facutura:
 <xsl:for-each select="factura/datos.facturas/dato.facutura">
-        - REF: <xsl:value-of select="/REF"/>
-          descripción: <xsl:value-of select="/descripción"/>
-          Cant: <xsl:value-of select="/Cant"/>
-          precio: <xsl:value-of select="/precio"/>
-          I.V.A: <xsl:value-of select="/I.V.A"/>
-          importe: <xsl:value-of select="/importe"/>
+        - REF: <xsl:value-of select="REF"/>
+          descripción: <xsl:value-of select="descripción"/>
+          Cant: <xsl:value-of select="Cant"/>
+          precio: <xsl:value-of select="precio"/>
+          I.V.A: <xsl:value-of select="I.V.A"/>
+          importe: <xsl:value-of select="importe"/>
 </xsl:for-each>
       suma:
         base.imponible: <xsl:value-of select="/factura/datos.facturas/suma/base.imponible"/>
