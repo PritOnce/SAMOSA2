@@ -38,7 +38,7 @@
                     <div class="card-body">
                       <h5 class="card-title"><xsl:value-of select="title"/></h5>
                       <p class="card-text"><xsl:value-of select="description"/></p>
-                      <a href="{link}" class="btn btn-primary">Noticia Completa</a>
+                      <a href="{link}" class="btn btn-dark">Noticia Completa</a>
                     </div>
                     <div class="card-footer text-muted">
                         <xsl:value-of select="dc:creator"/>
