@@ -21,13 +21,12 @@
                             <xsl:value-of select="rss/channel/title"/>
                         </button>
                     </a>
-
                 </figure>
 
                 <figure class="text-center">
-                    <p class="fw-bold">
+                    <h4 class="fw-bold">
                         <xsl:value-of select="rss/channel/description"/>
-                    </p>
+                    </h4>
                 </figure>
 
                 <xsl:for-each select="rss/channel/item">
