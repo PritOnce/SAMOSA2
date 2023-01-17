@@ -21,6 +21,8 @@
                             <xsl:value-of select="rss/channel/title"/>
                         </button>
                     </a>
+                    <p></p>
+                    <p><xsl:value-of select="rss/channel/lastBuildDate"/></p>
                 </figure>
 
                 <figure class="text-center">
