@@ -1,0 +1,13 @@
+<!ELEMENT bailes (baile+)>
+<!ELEMENT baile (nom,precio_clase,numplazas,inicio,fin,numclases,nom_profesor,sala)>
+<!ELEMENT nom (#PCDATA)>
+<!ELEMENT precio_clase (precio,duracion,moneda)>
+<!ELEMENT precio (#PCDATA)>
+<!ELEMENT duracion (#PCDATA)>
+<!ELEMENT moneda (#PCDATA)>
+<!ELEMENT numplazas (#PCDATA)>
+<!ELEMENT inicio (#PCDATA)>
+<!ELEMENT fin (#PCDATA)>
+<!ELEMENT numclases (#PCDATA)>
+<!ELEMENT nom_profesor (#PCDATA)>
+<!ELEMENT sala (#PCDATA)>

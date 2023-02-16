@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="baile.xsl" type="text/xsl"?>
+<!DOCTYPE bailes SYSTEM "baile.dtd">
+<bailes>
+    <baile>
+        <nom>El Michael Jackson</nom>
+        <precio_clase>
+            <precio>30</precio>
+            <duracion>3 meses</duracion>
+            <moneda>euro</moneda>
+        </precio_clase>
+        <numplazas>25</numplazas>
+        <inicio>18:00</inicio>
+        <fin>19:30</fin>
+        <numclases>5</numclases>
+        <nom_profesor>Fiona</nom_profesor>
+        <sala>2</sala>
+    </baile>
+    <baile>
+        <nom>El Robocop</nom>
+        <precio_clase>
+            <precio>10</precio>
+            <duracion>1 meses</duracion>
+            <moneda>euro</moneda>
+        </precio_clase>
+        <numplazas>10</numplazas>
+        <inicio>16:00</inicio>
+        <fin>17:00</fin>
+        <numclases>3</numclases>
+        <nom_profesor>Sofía</nom_profesor>
+        <sala>1</sala>
+    </baile>
+    <baile>
+        <nom>El gusanito</nom>
+        <precio_clase>
+            <precio>60</precio>
+            <duracion>2 meses</duracion>
+            <moneda>euro</moneda>
+        </precio_clase>
+        <numplazas>60</numplazas>
+        <inicio>21:00</inicio>
+        <fin>22:30</fin>
+        <numclases>3</numclases>
+        <nom_profesor>Bruno</nom_profesor>
+        <sala>3</sala>
+    </baile>
+    <baile>
+        <nom>Break dance</nom>
+        <precio_clase>
+            <precio>5</precio>
+            <duracion>1 meses</duracion>
+            <moneda>euro</moneda>
+        </precio_clase>
+        <numplazas>60</numplazas>
+        <inicio>11:00</inicio>
+        <fin>13:00</fin>
+        <numclases>5</numclases>
+        <nom_profesor>Sofia</nom_profesor>
+        <sala>1</sala>
+    </baile>
+    <baile>
+        <nom>El vaquero</nom>
+        <precio_clase>
+            <precio>30</precio>
+            <duracion>6 meses</duracion>
+            <moneda>euro</moneda>
+        </precio_clase>
+        <numplazas>25</numplazas>
+        <inicio>11:00</inicio>
+        <fin>12:00</fin>
+        <numclases>6</numclases>
+        <nom_profesor>Sofia</nom_profesor>
+        <sala>2</sala>
+    </baile>
+    <baile>
+        <nom>El bombero</nom>
+        <precio_clase>
+            <precio>30</precio>
+            <duracion>1 meses</duracion>
+            <moneda>euro</moneda>
+        </precio_clase>
+        <numplazas>80</numplazas>
+        <inicio>15:00</inicio>
+        <fin>17:00</fin>
+        <numclases>3</numclases>
+        <nom_profesor>Bruno</nom_profesor>
+        <sala>3</sala>
+    </baile>
+</bailes>
